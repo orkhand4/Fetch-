@@ -2,5 +2,12 @@
 // .then((response) => response.json())
 // .then((data) => console.log(data))
 
-const response = fetch('https://jsonplaceholder.typicode.com/users');
-console.log(response);
+
+const demo = async() => {
+  const response = await fetch('https://jsonplaceholder.typicode.com/users');
+  console.log(response);
+}
+
+demo()
+
+
